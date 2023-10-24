@@ -1,8 +1,8 @@
-import 'package:admin/models/MyFiles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../constants.dart';
+import '../../../models/MyFiles.dart';
 
 class FileInfoCard extends StatelessWidget {
   const FileInfoCard({
@@ -16,9 +16,9 @@ class FileInfoCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(defaultPadding),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: secondaryColor,
-        borderRadius: const BorderRadius.all(Radius.circular(10)),
+        borderRadius: BorderRadius.all(Radius.circular(10)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
