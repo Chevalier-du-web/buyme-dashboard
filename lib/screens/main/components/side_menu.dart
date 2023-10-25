@@ -19,23 +19,24 @@ class SideMenu extends StatelessWidget {
             svgSrc: "assets/icons/menu_dashboard.svg",
             press: () {},
           ),
+
           DrawerListTile(
-            title: "Transaction",
+            title: "Depannage",
             svgSrc: "assets/icons/menu_tran.svg",
             press: () {},
           ),
           DrawerListTile(
-            title: "Task",
+            title: "Commandes",
             svgSrc: "assets/icons/menu_task.svg",
             press: () {},
           ),
           DrawerListTile(
-            title: "Documents",
+            title: "Utilisateurs",
             svgSrc: "assets/icons/menu_doc.svg",
             press: () {},
           ),
           DrawerListTile(
-            title: "Store",
+            title: "Fournisseurs",
             svgSrc: "assets/icons/menu_store.svg",
             press: () {},
           ),
@@ -45,12 +46,12 @@ class SideMenu extends StatelessWidget {
             press: () {},
           ),
           DrawerListTile(
-            title: "Profile",
+            title: "Profil",
             svgSrc: "assets/icons/menu_profile.svg",
             press: () {},
           ),
           DrawerListTile(
-            title: "Settings",
+            title: "Paramètres",
             svgSrc: "assets/icons/menu_setting.svg",
             press: () {},
           ),
