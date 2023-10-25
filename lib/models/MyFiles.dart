@@ -29,7 +29,7 @@ List demoMyFiles = [
   CloudStorageInfo(
     title: "Utilisateurs",
     numOfFiles: 1328,
-    svgSrc: "assets/icons/google_drive.svg",
+    svgSrc: "assets/icons/menu_profile.svg",
     totalStorage: "2.9GB",
     color: Color(0xFFFFA113),
     percentage: 35,
