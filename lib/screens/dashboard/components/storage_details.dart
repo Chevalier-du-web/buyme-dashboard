@@ -17,11 +17,11 @@ class StorageDetails extends StatelessWidget {
         color: secondaryColor,
         borderRadius: const BorderRadius.all(Radius.circular(10)),
       ),
-      child: Column(
+      child: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Storage Details",
+            "Produits les plus vendus",
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w500,
@@ -31,26 +31,44 @@ class StorageDetails extends StatelessWidget {
           Chart(),
           StorageInfoCard(
             svgSrc: "assets/icons/Documents.svg",
-            title: "Documents Files",
-            amountOfFiles: "1.3GB",
+            title: "Telephones",
+            amountOfFiles: "100 000F",
             numOfFiles: 1328,
           ),
           StorageInfoCard(
             svgSrc: "assets/icons/media.svg",
-            title: "Media Files",
-            amountOfFiles: "15.3GB",
+            title: "Ordinateurs",
+            amountOfFiles: "80 000F",
             numOfFiles: 1328,
           ),
           StorageInfoCard(
             svgSrc: "assets/icons/folder.svg",
-            title: "Other Files",
-            amountOfFiles: "1.3GB",
+            title: "Depannage",
+            amountOfFiles: "50 000F",
             numOfFiles: 1328,
           ),
           StorageInfoCard(
-            svgSrc: "assets/icons/unknown.svg",
-            title: "Unknown",
-            amountOfFiles: "1.3GB",
+            svgSrc: "assets/icons/Documents.svg",
+            title: "Batteries",
+            amountOfFiles: "40 000F",
+            numOfFiles: 140,
+          ),
+          StorageInfoCard(
+            svgSrc: "assets/icons/Documents.svg",
+            title: "Pochettes et glaces",
+            amountOfFiles: "30 000F",
+            numOfFiles: 140,
+          ),
+          StorageInfoCard(
+            svgSrc: "assets/icons/Documents.svg",
+            title: "Chargeurs et claviers",
+            amountOfFiles: "25 000F",
+            numOfFiles: 140,
+          ),
+          StorageInfoCard(
+            svgSrc: "assets/icons/Documents.svg",
+            title: "Autres accessoires",
+            amountOfFiles: "20 000F",
             numOfFiles: 140,
           ),
         ],
